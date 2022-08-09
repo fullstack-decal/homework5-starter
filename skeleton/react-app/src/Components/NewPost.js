@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {_________} from "react";
 
 const NewPost = () => {
   const [id, setId] = useState();
@@ -11,6 +11,8 @@ const NewPost = () => {
       title,
       body
     })
+
+    axios.post(_________, _________).then(_________);
   }
 
   return <div>
