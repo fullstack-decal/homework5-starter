@@ -1,6 +1,7 @@
 import {_________} from "react";
+import axios from "axios";
 
-const NewPost = () => {
+const NewPost = ({ _________ }) => {
   const [id, setId] = useState();
   const [title, setTitle] = useState();
   const [body, setBody] = useState();
